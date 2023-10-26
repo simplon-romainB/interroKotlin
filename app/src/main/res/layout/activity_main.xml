@@ -10,6 +10,7 @@
         android:id="@+id/search"
         android:layout_width="356dp"
         android:layout_height="54dp"
+        android:background="#CABDBD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -27,4 +28,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/search"
         app:layout_constraintVertical_bias="0.143" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="409dp"
+        android:layout_height="457dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="273dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
